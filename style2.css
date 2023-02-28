@@ -1,9 +1,4 @@
-@media (max-width: 650px) {
-    .medsos ul li a .box .col h4 {
-      display: flex;
-      flex-direction: column;
-    }
-  }
+
 * {
     padding: 0;
     margin: 0;
@@ -151,5 +146,14 @@ header ul li a:hover {
     .box p{
         text-align: center;
     }
+
+    @media (max-width: 560px) {
+        .box{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
 
    
